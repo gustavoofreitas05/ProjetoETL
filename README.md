@@ -59,41 +59,6 @@ etl_ecommerce/
 └── README.md
 ```
 
----
-
-## 🚀 Como executar
-
-### 1. Clone o repositório
-```bash
-git clone https://github.com/seu-usuario/etl-ecommerce.git
-cd etl-ecommerce
-```
-
-### 2. Crie o ambiente virtual
-```bash
-python -m venv venv
-source venv/bin/activate        # Linux/Mac
-venv\Scripts\activate           # Windows
-```
-
-### 3. Instale as dependências
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Configure as variáveis de ambiente
-```bash
-cp .env.example .env
-# Edite o .env se necessário
-```
-
-### 5. Execute o pipeline completo
-```bash
-python src/pipeline.py
-```
-
----
-
 ## 📊 KPIs gerados pelo pipeline
 
 | Métrica | Descrição |
@@ -148,4 +113,5 @@ pytest tests/ -v
 
 ## 📄 Licença
 
-MIT © Seu Nome
+MIT © Pedro
+
